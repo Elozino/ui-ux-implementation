@@ -1,0 +1,97 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color: rgba(125, 133, 143, 0.884);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 24px;
+}
+body{
+   background-color: #c5d0e2;;
+}
+section{
+   padding: 30px 50px 30px 50px;
+   margin: 50px 0;
+}
+.main{
+   display: flex;
+   justify-content: space-between;
+}
+.box{
+   background-color:  #d9dfe9;
+   border-radius: 10px;
+   margin: 10px;
+   padding: 0 50px 50px 50px;
+   box-shadow: 3px 3px 10px #c8cbcf;
+   width: 800px;
+}
+.list_flex,li{
+   list-style-type: none;
+   display: inline;
+   justify-content: space-between;
+   margin: 20px;
+   font-size: 18px;
+}
+.main2{
+  text-align: center;
+}
+.main3{
+   font-size: 60px;
+   color: whitesmoke;
+}
+.width{
+   width: 50%;
+}
+h1{
+   margin: 50px 0 10px 0;
+}
+button{
+   border: none;
+   padding: 5px 30px 5px 30px;
+   margin: 40px 0 40px 0;
+   color:  rgb(99, 166, 233);
+   border-radius: 10px 30px;
+}
+.btn1{
+   background-color: rgb(20, 20, 177);
+   
+}
+.btn2{
+   background-color: none;
+}
+.btn3{
+   display: flex;
+   margin: auto;
+}
+.btn4{
+   margin: 30px 0 0 0;
+}
+h1, h2, h3, li{
+   color: rgb(99, 166, 233);
+}
+h2{
+   font-size: 50px;
+   margin-bottom: 20px;
+}
+.pad{
+   padding: 20px;
+}
+
+/*This is an independent styling*/
+.section1{
+   background-image: url("bgImg.jpg");
+   height: 70vh;
+   margin: 0;
+}
+.p_flex{
+   width: 23vw; 
+   display: flex; 
+   margin:auto;
+}
+img{
+   width: 50vw;
+}
+.font{
+   font-size: 100px;
+   color: rgb(99, 166, 233);
+}
